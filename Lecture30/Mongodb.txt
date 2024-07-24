@@ -1,0 +1,38 @@
+//Intro To MongoDb
+What is MongoDB?
+MongoDB is a document-oriented database, which means it stores data in JSON-like documents with dynamic schemas (known as BSON, Binary JSON). This differs from traditional relational databases that store data in tables with a predefined schema.
+
+Key Features of MongoDB:
+1 Schemaless Design: MongoDB does not require a predefined schema, allowing for flexible document structures within a collection.
+2 High Scalability: MongoDB supports horizontal scaling through sharding, distributing data across multiple servers, making it suitable for large-scale applications.
+3 Rich Query Language: MongoDB's query language supports complex queries, indexing, and aggregation operations to manipulate and retrieve data efficiently.
+4 Document-Oriented: Data in MongoDB is stored in collections, which contain documents. A document is a set of key-value pairs and is analogous to a row in a relational database.
+5 JSON/BSON Format: MongoDB stores data in BSON (Binary JSON), which is a binary-encoded serialization of JSON-like documents. This allows MongoDB to efficiently store and access data.
+6 Replication and High Availability: MongoDB supports replica sets for automatic failover and data redundancy, ensuring high availability of data.
+
+//webflow from frntend to backend
+//Layers buisness logic, Service layer, Data layer
+//MVC MOdel View Controller
+MVC, or Model-View-Controller, is a popular architectural pattern used to structure applications, particularly those with user interfaces. It separates the core functionalities of the application into three distinct parts:
+
+Model: The Model represents the data and business logic of the application. It encapsulates the data and defines the rules that govern how that data can be accessed and manipulated.
+
+View: The View handles the application's presentation layer. It's responsible for displaying the data to the user in a user-friendly format. This can include things like text, images, and interactive elements.
+
+Controller: The Controller acts as an intermediary between the Model and the View. It receives user input from the View, processes it, and instructs the Model to update itself accordingly. The Controller then retrieves the updated data from the Model and instructs the View to update its presentation.
+
+Here's a breakdown of how they interact:
+
+The user interacts with the View (e.g., clicking a button).
+The View sends the user's action to the Controller.
+The Controller interprets the action and updates the Model (e.g., adding data).
+The Model updates itself and notifies the Controller of any changes.
+The Controller retrieves the updated data from the Model.
+The Controller instructs the View to update itself with the new data.
+The View reflects the changes in the Model, presenting the updated information to the user.
+By separating these concerns, MVC offers several advantages:
+
+Improved maintainability: Changes to one component (e.g., the View) are less likely to impact other components (e.g., the Model).
+Code reusability: Components can be reused in different parts of the application or even in different applications.
+Clear separation of concerns: Developers can focus on specific aspects of the application without worrying about the intricate details of other parts.
+MVC is a widely used pattern for developing web applications, desktop applications, and mobile applications. There are also several MVC frameworks available that provide pre-built components and streamline the development process.

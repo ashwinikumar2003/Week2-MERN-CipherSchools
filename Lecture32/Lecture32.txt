@@ -1,0 +1,25 @@
+
+Rest- Represtational State Transfer 
+Api - application program interface (endpoint) program handling request
+Http MEthods 
+Get 
+Post 
+Put
+Patch
+Delete
+
+status codes:
+200-ok
+404-Not Found
+500-Server Error
+
+//rest constraints
+
+res.send(
+res.json()
+res.end()
+
+//Middleware
+req -->  (body-parser-->routes--->error-handling)Midddleware  -->Response
+
+//Postman -->Testing rest apis
